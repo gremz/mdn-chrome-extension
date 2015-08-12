@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "MDN.io Search",
+  "description": "The MDN Direct Search extension provides a quick, easy and direct way to search The Mozilla Developer Network using your addressbar",
+  "version": "1.0",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "omnibox": {
+    "keyword": "mdn"
+  }
+}
